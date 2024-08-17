@@ -44,7 +44,7 @@ html {
     padding-top: 100px ;
     
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: linear-gradient(
         rgb(0, 0, 0, 0.90),
         rgb(0, 0, 0, 0.80)),
@@ -81,17 +81,7 @@ html {
 }
 
 
-.section-2 {
-    width: 100%;
-    height: 100vh;
-    margin: 3rem;
-    background: linear-gradient(rgb(0, 0, 0, 1),
-            rgb(0, 0, 0, 1));
-    background-size: cover;
-    flex-direction: column;
 
-
-}
 
 .section-2-heading {
     font-size: 2rem;
@@ -107,6 +97,7 @@ ul {
     color: #ffffff;
     text-transform: uppercase;
     margin: 5rem 2rem 3rem 0rem;
+    text-align: center;
 }
 
 li {
@@ -116,6 +107,7 @@ li {
     letter-spacing: 0.2rem;
     text-transform: uppercase;
     margin: 0.5rem 0.5rem 0rem 3rem;
+    text-align: center;
 }
 
 .section-3 {
@@ -150,6 +142,7 @@ li {
     color: #ffffff;
     text-align: justify;
     font-size: 2rem;
+    text-transform: none;
 }
 
 .carousel{
@@ -236,6 +229,13 @@ li {
     flex-direction: column;
     justify-content: center;
 
+}
+
+.center h2{
+    font-size: 2.5rem;
+    text-decoration: none;
+    text-transform: none;
+    color: #FFF;
 }
 
 
